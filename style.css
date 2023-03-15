@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-height: 100vh;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+.main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #03045e;
+}
+.content-container {
+  width: 25%;
+  height: 25%;
+  background: #ffff;
+  border-radius: 8px;
+  position: relative;
+}
+.timer {
+  position: absolute;
+  display: inline-block;
+  width: 95%;
+  height: 45%;
+  background: #d3d3d3;
+  margin: 2.5%;
+  border-radius: 8px;
+}
+.timer h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 1%;
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30%;
+}
+.button button {
+  border: none;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  background: orangered;
+}
+
+@media only screen and (min-width: 375px) {
+  .main-container {
+    width: 100%;
+    height: 100vh;
+  }
+  .content-container {
+    width: 350px;
+    height: 200px;
+  }
+  .timer h2 {
+    font-family: "Outfit", sans-serif;
+    font-size: 3.8rem;
+    text-align: center;
+    margin-top: 1%;
+  }
+  .button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 35%;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .main-container {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      background: #03045e;
+    }
+    .content-container {
+      width: 25%;
+      height: 25%;
+      background: #ffff;
+      border-radius: 8px;
+      position: relative;
+    }
+    .timer h2 {
+      font-family: "Outfit", sans-serif;
+      font-size: 5rem;
+      text-align: center;
+      margin-top: 1%;
+    }
+    .button {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 30%;
+    }
+  
+  }
